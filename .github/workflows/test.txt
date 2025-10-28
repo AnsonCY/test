@@ -1,0 +1,1489 @@
+proxies:
+- auth: 7af26eae-63c7-43c8-b335-e3528f790459
+  down: 700
+  name: HK HKT 01 @SubscriptionShare
+  obfs: salamander
+  obfs-password: YTRkMDE1MzQ4NmFlNmQxNg==
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+  port: 5002
+  server: 168.70.90.117
+  skip-cert-verify: true
+  sni: hktv02.outleft-hy.xyz
+  type: hysteria2
+  udp: true
+  up: 700
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: SG AMAZON 01 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: Bkxd25PPovqeYw6AevM-L266KM2kLDJomgmorzvGFmM
+    short-id: 2c846487
+  server: 47.129.156.215
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72090081-bab6-49cd-8006-e470afaf84fb
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: SG AMAZON 02 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: 1cs7mxEcoVKwcYepAnKgqHAFhRxPv6aO3tv7lNhwLDQ
+    short-id: 46bf6ea0
+  server: 13.213.13.174
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f177de9f-6bee-405e-b620-f73b43a1f2ea
+- client-fingerprint: chrome
+  name: SG ORACLE 03 @SubscriptionShare
+  network: ws
+  port: 2083
+  server: 8.39.125.225
+  servername: 1761609829.speed.sgxjpd.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.sgxjpd.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: SG ORACLE 04 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.sgxjpe.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.sgxjpe.china.cctvalipay.cn
+    path: /?ed=2560
+- name: SG AMAZON 05 @SubscriptionShare
+  network: ws
+  password: f177de9f-6bee-405e-b620-f73b43a1f2ea
+  port: 20230
+  server: 47.128.144.54
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- client-fingerprint: chrome
+  name: SG ORACLE 06 @SubscriptionShare
+  network: ws
+  port: 8443
+  server: 8.39.125.29
+  servername: 1761609829.speed.sgxjpf.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.sgxjpf.china.cctvalipay.cn
+    path: /?ed=2560
+- name: SG AMAZON 07 @SubscriptionShare
+  network: ws
+  password: 72090081-bab6-49cd-8006-e470afaf84fb
+  port: 20230
+  server: 18.143.168.79
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- client-fingerprint: chrome
+  name: SG ORACLE 08 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.sgxjpc.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.sgxjpc.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: SG ORACLE 09 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.105
+  servername: 1761609829.speed.sgxjpb.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.sgxjpb.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: SG ORACLE 10 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.sgxjpa.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.sgxjpa.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: SG AMAZON 11 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: hBXQa1tSoP0jjIezHxeyKhf1YKxe8CoBHoxvIxEJuAc
+    short-id: 2c5ecaae
+  server: 52.77.253.88
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f177de9f-6bee-405e-b620-f73b43a1f2ea
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: SG AMAZON 12 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: WEttTimK6Q9qB8cd2AQ8kyDJOVfKAlPIl5E1T7-q0Dw
+    short-id: 1afbe06d
+  server: 13.212.85.241
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72090081-bab6-49cd-8006-e470afaf84fb
+- name: SG AMAZON 13 @SubscriptionShare
+  network: ws
+  password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b
+  port: 20230
+  server: 13.212.21.195
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: SG AMAZON 14 @SubscriptionShare
+  network: ws
+  password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b
+  port: 20230
+  server: 54.254.213.175
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: SG AS 15 @SubscriptionShare
+  password: 7f7fea1d-16cf-3f0b-95c8-2dbb2fc5a97c
+  port: 443
+  server: 45.77.250.112
+  skip-cert-verify: true
+  sni: sg1.sstank.top
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: JP AMAZON 01 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: lbOfuIKCBPcQH4AEnwnPw1LNxWrl-Bul6KU99H240Fc
+    short-id: abae4722
+  server: 52.197.161.31
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72090081-bab6-49cd-8006-e470afaf84fb
+- name: JP AMAZON 02 @SubscriptionShare
+  network: ws
+  password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b
+  port: 20230
+  server: 54.199.145.191
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP AMAZON 03 @SubscriptionShare
+  network: ws
+  password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b
+  port: 20230
+  server: 52.195.185.29
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP AMAZON 04 @SubscriptionShare
+  network: ws
+  password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b
+  port: 20230
+  server: 43.206.210.67
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- client-fingerprint: chrome
+  name: JP ORACLE 05 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.jpkcc.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.jpkcc.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: JP ORACLE 06 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.105
+  servername: 1761609829.speed.jpkcb.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.jpkcb.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: JP Oracle 07 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.69
+  servername: 1761609829.speed.jpkcd.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.jpkcd.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: JP ORACLE 08 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.105
+  servername: 1761609829.speed.jpkca.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.jpkca.china.cctvalipay.cn
+    path: /?ed=2560
+- auth: e0fafa17-7ac1-4435-af1a-d61e2904f367
+  name: JP KAGOYA 09 @SubscriptionShare
+  password: e0fafa17-7ac1-4435-af1a-d61e2904f367
+  port: 50000
+  server: 133.18.163.202
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  udp: true
+- name: JP AS 10 @SubscriptionShare
+  password: 7f7fea1d-16cf-3f0b-95c8-2dbb2fc5a97c
+  port: 443
+  server: 45.76.199.44
+  skip-cert-verify: true
+  sni: jp1.sstank.top
+  type: trojan
+  udp: true
+- auth: 2bf56837-998b-4e2d-a801-c16fd8e86be1
+  name: US RELIABLESITE 01 @SubscriptionShare
+  password: 2bf56837-998b-4e2d-a801-c16fd8e86be1
+  port: 11112
+  server: 151.243.168.58
+  skip-cert-verify: true
+  sni: us2.oxdtangx.top
+  type: hysteria2
+  udp: true
+- auth: 2bf56837-998b-4e2d-a801-c16fd8e86be1
+  name: US ASIPFB 02 @SubscriptionShare
+  password: 2bf56837-998b-4e2d-a801-c16fd8e86be1
+  port: 11112
+  server: 207.174.28.3
+  skip-cert-verify: true
+  sni: xg1.oxdtangx.top
+  type: hysteria2
+  udp: true
+- auth: 13c45514-1d29-4124-a2dd-315c1d0ee5e1
+  name: US DARTNODE 03 @SubscriptionShare
+  password: 13c45514-1d29-4124-a2dd-315c1d0ee5e1
+  port: 11112
+  server: 166.88.160.176
+  skip-cert-verify: true
+  sni: yg1.oxdtangx.top
+  type: hysteria2
+  udp: true
+- name: US AMAZON 04 @SubscriptionShare
+  network: ws
+  password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b
+  port: 20230
+  server: 34.217.92.216
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: US AS 05 @SubscriptionShare
+  password: 7f7fea1d-16cf-3f0b-95c8-2dbb2fc5a97c
+  port: 443
+  server: 45.63.88.118
+  skip-cert-verify: true
+  sni: usa1.sstank.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US AS 06 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.laxusaa.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.laxusaa.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: US AMAZON 07 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: zWY5WwfH-Q8xvLZAr28WjRVk05L4WCp4B7F1lWPM0A8
+    short-id: c1839f26
+  server: 44.248.117.229
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f177de9f-6bee-405e-b620-f73b43a1f2ea
+- client-fingerprint: chrome
+  name: US ORACLE 08 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.105
+  servername: 1761609829.speed.asbppke.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.asbppke.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: US AS 09 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.105
+  servername: 1761609829.speed.nyuec.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.nyuec.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: US ORACLE 10 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.105
+  servername: 1761609829.speed.asbppkf.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.asbppkf.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: US AMAZON 11 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: Bq_RQyPwxp7zTYywC37jLxmcjV9npNN6H6_1d_R6GT0
+    short-id: c9916730
+  server: 54.218.84.50
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f177de9f-6bee-405e-b620-f73b43a1f2ea
+- client-fingerprint: chrome
+  name: US ORACLE 12 @SubscriptionShare
+  network: ws
+  port: 8443
+  server: 8.39.125.105
+  servername: 1761609829.speed.asbppkg.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.asbppkg.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: US ORACLE 13 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.105
+  servername: 1761609829.speed.asbppkd.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.asbppkd.china.cctvalipay.cn
+    path: /?ed=2560
+- name: US AMAZON 14 @SubscriptionShare
+  network: ws
+  password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b
+  port: 20230
+  server: 16.145.242.167
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- client-fingerprint: chrome
+  name: US AS 15 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.225
+  servername: 1761609829.speed.usadalsa.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.usadalsa.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: US ORACLE 16 @SubscriptionShare
+  network: ws
+  port: 2083
+  server: 8.39.125.225
+  servername: 1761609829.speed.csaiobvasc.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.csaiobvasc.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: US ORACLE 17 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.csaiobvasd.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.csaiobvasd.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: US ORACLE 18 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.usazcjgd.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.usazcjgd.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: US AS 19 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.nyueb.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.nyueb.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: US ORACLE 20 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.225
+  servername: 1761609829.speed.csaiobvasa.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.csaiobvasa.china.cctvalipay.cn
+    path: /?ed=2560
+- cipher: aes-128-gcm
+  name: TW DCBG 01 @SubscriptionShare
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+  port: 584
+  server: 103.255.71.139
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: TW DCBG 02 @SubscriptionShare
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+  port: 581
+  server: 103.255.71.139
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: AU ORACLE 01 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.moerbena.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.moerbena.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: AU ORACLE 02 @SubscriptionShare
+  network: ws
+  port: 8443
+  server: 8.39.125.225
+  servername: 1761609829.speed.moerbenb.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.moerbenb.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: BR ORACLE 01 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.baxctdka.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.baxctdka.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: BR ORACLE 02 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.baxctdkc.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.baxctdkc.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: BR ORACLE 03 @SubscriptionShare
+  network: ws
+  port: 2083
+  server: 8.39.125.225
+  servername: 1761609829.speed.baxctdkb.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.baxctdkb.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: BR Oracle 04 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.baxctdke.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.baxctdke.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: BR Oracle 05 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.baxctdkd.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.baxctdkd.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: CA ORACLE 01 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.225
+  servername: 1761609829.speed.usacapoha.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.usacapoha.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: CL ORACLE 01 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.225
+  servername: 1761609829.speed.baxctdkk.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.baxctdkk.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: CL ORACLE 02 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.baxctdkj.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.baxctdkj.china.cctvalipay.cn
+    path: /?ed=2560
+- cipher: aes-128-gcm
+  name: CN HAAC 01 @SubscriptionShare
+  password: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  port: 36667
+  server: 8.129.106.53
+  type: ss
+  udp: true
+- grpc-opts:
+    grpc-service-name: hellogrpc
+  name: CN CMCGC 02 @SubscriptionShare
+  network: grpc
+  password: 7f7fea1d-16cf-3f0b-95c8-2dbb2fc5a97c
+  port: 443
+  server: 104.21.38.60
+  skip-cert-verify: true
+  sni: backcn.rmanluo.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: DE netcup 01 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.225
+  servername: 1761609829.speed.deacgka.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.deacgka.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: DE netcup 02 @SubscriptionShare
+  network: ws
+  port: 2083
+  server: 8.39.125.225
+  servername: 1761609829.speed.cdcsghiboisa.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.cdcsghiboisa.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: DE netcup 03 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.225
+  servername: 1761609829.speed.deacgkb.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.deacgkb.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: ES ORACLE 01 @SubscriptionShare
+  network: ws
+  port: 8443
+  server: 8.39.125.225
+  servername: 1761609829.speed.ukpgkk.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ukpgkk.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: FR ORACLE 01 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.ukpgkg.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ukpgkg.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: GB Oracle 01 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.ukpgkc.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ukpgkc.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: GB ORACLE 02 @SubscriptionShare
+  network: ws
+  port: 8443
+  server: 8.39.125.225
+  servername: 1761609829.speed.ukpgkd.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ukpgkd.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: GB ORACLE 03 @SubscriptionShare
+  network: ws
+  port: 8443
+  server: 8.39.125.225
+  servername: 1761609829.speed.ukpgkb.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ukpgkb.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: GB ORACLE 04 @SubscriptionShare
+  network: ws
+  port: 8443
+  server: 8.39.125.225
+  servername: 1761609829.speed.ukpgke.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ukpgke.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: GB ORACLE 05 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.225
+  servername: 1761609829.speed.ukpgka.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ukpgka.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: ID ORACLE 01 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.ydnxc.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ydnxc.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: ID ORACLE 02 @SubscriptionShare
+  network: ws
+  port: 2083
+  server: 8.39.125.105
+  servername: 1761609829.speed.ydnxd.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ydnxd.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: ID ORACLE 03 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.246
+  servername: 1761609829.speed.ydnxf.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ydnxf.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: ID ORACLE 04 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.69
+  servername: 1761609829.speed.ydnxe.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ydnxe.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: IL ORACLE 01 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.225
+  servername: 1761609829.speed.irsysla.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.irsysla.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: IL ORACLE 02 @SubscriptionShare
+  network: ws
+  port: 8443
+  server: 8.39.125.225
+  servername: 1761609829.speed.irsyslb.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.irsyslb.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: IN ORACLE 01 @SubscriptionShare
+  network: ws
+  port: 8443
+  server: 8.39.125.225
+  servername: 1761609829.speed.ydhdlbc.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ydhdlbc.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: IN ORACLE 02 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.246
+  servername: 1761609829.speed.ydhdlba.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ydhdlba.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: IN ORACLE 03 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.225
+  servername: 1761609829.speed.ydhdlbb.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ydhdlbb.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: IN Oracle 04 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.ydhdlbd.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ydhdlbd.china.cctvalipay.cn
+    path: /?ed=2560
+- cipher: aes-128-gcm
+  name: IT Green 01 @SubscriptionShare
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+  port: 2137
+  server: 119.36.154.95
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: MD Alexhost 01 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.romkkakac.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.romkkakac.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: MX ORACLE 01 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.usacapohd.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.usacapohd.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: MX ORACLE 02 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.usacapohe.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.usacapohe.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: MX ORACLE 03 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.225
+  servername: 1761609829.speed.usacapohb.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.usacapohb.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: MX ORACLE 04 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.usacapohc.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.usacapohc.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: NG Suburban 01 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.ukpgkh.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ukpgkh.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: NL ORACLE 01 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.ukpgkj.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ukpgkj.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: NL ORACLE 02 @SubscriptionShare
+  network: ws
+  port: 2083
+  server: 8.39.125.225
+  servername: 1761609829.speed.ukpgki.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.ukpgki.china.cctvalipay.cn
+    path: /?ed=2560
+- auth: 13c45514-1d29-4124-a2dd-315c1d0ee5e1
+  name: RU LLC 01 @SubscriptionShare
+  password: 13c45514-1d29-4124-a2dd-315c1d0ee5e1
+  port: 11112
+  server: 45.130.147.172
+  skip-cert-verify: true
+  sni: els1.oxdtangx.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: RU First 02 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.russala.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.russala.china.cctvalipay.cn
+    path: /?ed=2560
+- cipher: aes-128-gcm
+  name: RU Chelyabinsk 03 @SubscriptionShare
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+  port: 2043
+  server: 119.36.154.95
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: SA ORACLE 01 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.shatalba.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.shatalba.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: SA ORACLE 02 @SubscriptionShare
+  network: ws
+  port: 2096
+  server: 8.39.125.225
+  servername: 1761609829.speed.shatalbb.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.shatalbb.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: TH SCC 01 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.29
+  servername: 1761609829.speed.thbmga.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.thbmga.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: TR FCOC 01 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.225
+  servername: 1761609829.speed.deacgkc.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.deacgkc.china.cctvalipay.cn
+    path: /?ed=2560
+- auth: 7af26eae-63c7-43c8-b335-e3528f790459
+  down: 700
+  name: Unknown HKT 01 @SubscriptionShare
+  obfs: salamander
+  obfs-password: YjcwMDNiMDhhZWU1OTU4MA==
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+  port: 543
+  server: hktv04.outleft-hy.xyz
+  skip-cert-verify: true
+  sni: hktv04.outleft-hy.xyz
+  type: hysteria2
+  udp: true
+  up: 700
+- client-fingerprint: chrome
+  name: ZA ORACLE 01 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.yhnsbnfd.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.yhnsbnfd.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: ZA ORACLE 02 @SubscriptionShare
+  network: ws
+  port: 8443
+  server: 8.39.125.225
+  servername: 1761609829.speed.yhnsbnfa.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.yhnsbnfa.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: ZA ORACLE 03 @SubscriptionShare
+  network: ws
+  port: 2087
+  server: 8.39.125.225
+  servername: 1761609829.speed.yhnsbnfc.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.yhnsbnfc.china.cctvalipay.cn
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: ZA ORACLE 04 @SubscriptionShare
+  network: ws
+  port: 2053
+  server: 8.39.125.225
+  servername: 1761609829.speed.yhnsbnfb.china.cctvalipay.cn
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec32f525-47c3-4fa4-abe0-5269edf396d5
+  ws-opts:
+    headers:
+      Host: 1761609829.speed.yhnsbnfb.china.cctvalipay.cn
+    path: /?ed=2560
