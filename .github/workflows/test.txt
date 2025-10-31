@@ -696,6 +696,255 @@ proxies:
   type: vmess
   udp: true
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+alterId: 0
+  cipher: auto
+  name: KH IICWTBVIT 01 @SubscriptionShare
+  port: 26082
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: LT GCSL 01 @SubscriptionShare
+  port: 26153
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: LV ASNET 01 @SubscriptionShare
+  port: 26102
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: MX AS 01 @SubscriptionShare
+  port: 26148
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: MY STSB 01 @SubscriptionShare
+  port: 26137
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: NL DIGITALOCEAN 01 @SubscriptionShare
+  port: 26098
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: NO HOSTHATCH 01 @SubscriptionShare
+  port: 26140
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: OM Kaopu 01 @SubscriptionShare
+  port: 26133
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: PH ZEN 01 @SubscriptionShare
+  port: 26080
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: PK Kaopu 01 @SubscriptionShare
+  port: 26135
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: PL ASNET 01 @SubscriptionShare
+  port: 26096
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: PT GCSL 01 @SubscriptionShare
+  port: 26154
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: RO CFIS 01 @SubscriptionShare
+  port: 26146
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: RU LLC 01 @SubscriptionShare
+  port: 26090
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- auth: c6728d92-c7f3-4828-b976-ff198f370994
+  name: RU LLC 02 @SubscriptionShare
+  password: c6728d92-c7f3-4828-b976-ff198f370994
+  port: 22239
+  server: 45.130.147.172
+  skip-cert-verify: true
+  sni: els.xiaomifengjc.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: SA Kaopu 01 @SubscriptionShare
+  port: 26088
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: SC Kaopu 01 @SubscriptionShare
+  port: 26124
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: SC Kaopu 02 @SubscriptionShare
+  port: 26155
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: SE HOSTHATCH 01 @SubscriptionShare
+  port: 26141
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: TH 4LJ 01 @SubscriptionShare
+  port: 26108
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: TR ASNET 01 @SubscriptionShare
+  port: 26092
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: UA ASNET 01 @SubscriptionShare
+  port: 26106
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: Unknown RELIABLESITE 01 @SubscriptionShare
+  port: 24321
+  server: cgroup.node3.v.nodelist-airport.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+- alterId: 0
+  cipher: auto
+  name: VN TQDTJSC 01 @SubscriptionShare
+  port: 26076
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: ZA AS 01 @SubscriptionShare
+  port: 26086
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 y: true
   sni: www.alibaba.com
   type: trojan
