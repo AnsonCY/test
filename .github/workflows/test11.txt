@@ -1,0 +1,999 @@
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: HK HKT 01 @SubscriptionShare
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19812
+  server: 183.240.138.217
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK HKT 02 @SubscriptionShare
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19812
+  server: 183.240.138.217
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK HK 03 @SubscriptionShare
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19812
+  server: 183.240.138.217
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 04 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15099
+  server: 95.40.13.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 05 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 19888
+  server: 54.46.118.139
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 06 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 11688
+  server: 18.167.85.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 07 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15097
+  server: 18.163.101.39
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 08 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 36888
+  server: 18.162.56.167
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK HK 09 @SubscriptionShare
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19812
+  server: 183.240.138.217
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 10 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 11688
+  server: 43.198.72.147
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 11 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15099
+  server: 18.166.67.42
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 12 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 11688
+  server: 43.198.73.118
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 13 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 11689
+  server: 95.40.38.249
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 14 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 36888
+  server: 95.40.25.215
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 15 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 11688
+  server: 43.199.134.154
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 16 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15098
+  server: 95.40.67.178
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 17 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15098
+  server: 18.162.61.34
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 18 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 19888
+  server: 43.198.114.54
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 19 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15098
+  server: 16.163.57.204
+  type: ss
+  udp: true
+- name: HK ASNET 20 @SubscriptionShare
+  network: ws
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 443
+  server: 104.17.142.189
+  skip-cert-verify: true
+  sni: media-hk001.622228.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: media-hk001.622228.xyz
+    path: /media
+- cipher: chacha20-ietf-poly1305
+  name: SG ORACLE 01 @SubscriptionShare
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19842
+  server: 183.240.138.217
+  type: ss
+  udp: true
+- name: SG ASNET 02 @SubscriptionShare
+  network: ws
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 443
+  server: 104.17.142.189
+  skip-cert-verify: true
+  sni: uqlp.682005.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: uqlp.682005.xyz
+    path: /media
+- name: SG PHDI 03 @SubscriptionShare
+  password: f959d233-02b8-4397-a453-e098675000d3
+  port: 21877
+  server: 118.253.180.20
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: SG AMAZON 04 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: Bkxd25PPovqeYw6AevM-L266KM2kLDJomgmorzvGFmM
+    short-id: 2c846487
+  server: 13.212.208.223
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aef43c17-8cf7-4ffc-800b-1dfb4e89ba83
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: SG AMAZON 05 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: 1cs7mxEcoVKwcYepAnKgqHAFhRxPv6aO3tv7lNhwLDQ
+    short-id: 46bf6ea0
+  server: 13.213.13.174
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13430296-2407-4839-900f-db97584fb27a
+- name: SG Amazon 06 @SubscriptionShare
+  network: ws
+  password: 58176021-8165-48d5-94b1-ad3e96e71e8b
+  port: 20230
+  server: 13.229.210.87
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: SG Amazon 07 @SubscriptionShare
+  network: ws
+  password: 13430296-2407-4839-900f-db97584fb27a
+  port: 20230
+  server: 52.77.213.147
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: SG Amazon 08 @SubscriptionShare
+  network: ws
+  password: 13430296-2407-4839-900f-db97584fb27a
+  port: 20230
+  server: 13.212.78.118
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: SG AMAZON 09 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: hBXQa1tSoP0jjIezHxeyKhf1YKxe8CoBHoxvIxEJuAc
+    short-id: 2c5ecaae
+  server: 47.129.190.83
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13430296-2407-4839-900f-db97584fb27a
+- name: SG AMAZON 10 @SubscriptionShare
+  network: ws
+  password: 13430296-2407-4839-900f-db97584fb27a
+  port: 20230
+  server: 54.169.250.129
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- cipher: aes-256-gcm
+  name: JP AMAZON 01 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15099
+  server: 43.207.117.9
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 02 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 10079
+  server: 18.183.154.192
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 03 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 36887
+  server: 43.206.152.134
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP ORACLE 04 @SubscriptionShare
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19832
+  server: 183.240.138.217
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: JP AMAZON 05 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: yNOemxnmT-HQ2HiR9fdHSN2B8HpHsRyMIsir_iAlaHE
+    short-id: 5c3c9f11
+  server: 18.177.137.1
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13430296-2407-4839-900f-db97584fb27a
+- name: JP AMAZON 06 @SubscriptionShare
+  network: ws
+  password: 13430296-2407-4839-900f-db97584fb27a
+  port: 20230
+  server: 18.181.176.231
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- cipher: aes-256-gcm
+  name: JP AMAZON 07 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 19690
+  server: 52.193.49.10
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 08 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15199
+  server: 13.114.157.209
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 09 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 36887
+  server: 13.231.161.45
+  type: ss
+  udp: true
+- name: JP SAKURA 10 @SubscriptionShare
+  password: f959d233-02b8-4397-a453-e098675000d3
+  port: 21868
+  server: 36.103.169.250
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 11 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 10079
+  server: 43.206.137.91
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: JP AMAZON 12 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: 4DQqVav-gK4Y1cMDDt4qyVpQf0GB6NkPgCPnjwude3c
+    short-id: d3b6f0c3
+  server: 54.64.19.145
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f177de9f-6bee-405e-b620-f73b43a1f2ea
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: JP AMAZON 13 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: lbOfuIKCBPcQH4AEnwnPw1LNxWrl-Bul6KU99H240Fc
+    short-id: abae4722
+  server: 52.197.161.31
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f177de9f-6bee-405e-b620-f73b43a1f2ea
+- cipher: aes-256-gcm
+  name: JP AMAZON 14 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15099
+  server: 3.112.218.146
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 15 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15097
+  server: 52.192.99.232
+  type: ss
+  udp: true
+- name: JP AMAZON 16 @SubscriptionShare
+  network: ws
+  password: 58176021-8165-48d5-94b1-ad3e96e71e8b
+  port: 20230
+  server: 13.231.109.234
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP AMAZON 17 @SubscriptionShare
+  network: ws
+  password: 13430296-2407-4839-900f-db97584fb27a
+  port: 20230
+  server: 52.195.226.124
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP AMAZON 18 @SubscriptionShare
+  network: ws
+  password: 13430296-2407-4839-900f-db97584fb27a
+  port: 20230
+  server: 54.238.239.58
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP ASNET 19 @SubscriptionShare
+  network: ws
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 443
+  server: 104.19.206.86
+  skip-cert-verify: true
+  sni: b3-dcrz3jvybk4.682006.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: b3-dcrz3jvybk4.682006.xyz
+    path: /media
+- name: JP SAKURA 20 @SubscriptionShare
+  password: f959d233-02b8-4397-a453-e098675000d3
+  port: 21869
+  server: 36.103.168.7
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- auth: 1c5fd2c8-f49c-45e8-9c37-ca5afbabb9b0
+  name: US RELIABLESITE 01 @SubscriptionShare
+  password: 1c5fd2c8-f49c-45e8-9c37-ca5afbabb9b0
+  port: 11112
+  server: 151.243.168.45
+  skip-cert-verify: true
+  sni: us1.oxdtangx.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US PONYNET 02 @SubscriptionShare
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19862
+  server: 183.240.138.217
+  type: ss
+  udp: true
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: US MULTA 03 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 74.48.56.173
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: US MULTA 04 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 74.48.121.216
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: US AS40676 05 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 173.224.219.224
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US MULTA 06 @SubscriptionShare
+  network: tcp
+  port: 52012
+  reality-opts:
+    public-key: a9uk_ZJLsVC_MY4CIa-d1aP5bagweyHUPR6O932-dC8
+    short-id: 24b05fcf3723e6af
+  server: 142.171.118.62
+  servername: music.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: US MULTA 07 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 142.171.44.180
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: US MULTA 08 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 104.156.140.113
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US MULTA 09 @SubscriptionShare
+  network: tcp
+  port: 52012
+  reality-opts:
+    public-key: a9uk_ZJLsVC_MY4CIa-d1aP5bagweyHUPR6O932-dC8
+    short-id: 24b05fcf3723e6af
+  server: 134.195.209.199
+  servername: music.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: US MULTA 10 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 185.77.226.139
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- auth: 0c6af622-c47d-428b-9717-6b1ee2f96d0a
+  name: US PONYNET 11 @SubscriptionShare
+  password: 0c6af622-c47d-428b-9717-6b1ee2f96d0a
+  port: 11112
+  server: 209.141.47.22
+  skip-cert-verify: true
+  sni: tw1.oxdtangx.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US HostPapa 12 @SubscriptionShare
+  network: tcp
+  port: 52012
+  reality-opts:
+    public-key: a9uk_ZJLsVC_MY4CIa-d1aP5bagweyHUPR6O932-dC8
+    short-id: 24b05fcf3723e6af
+  server: 107.173.39.105
+  servername: music.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: US Leaseweb 13 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 23.19.230.245
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US CLOUDFLARENET 14 @SubscriptionShare
+  network: tcp
+  port: 52012
+  reality-opts:
+    public-key: a9uk_ZJLsVC_MY4CIa-d1aP5bagweyHUPR6O932-dC8
+    short-id: 24b05fcf3723e6af
+  server: 134.195.209.160
+  servername: music.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: US MULTA 15 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 199.255.99.248
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: US LEASEWEB 16 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 23.80.81.224
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- auth: 6a8d4d12-0d8f-4a01-8244-765edcf6bfcd
+  name: US AS 17 @SubscriptionShare
+  password: 6a8d4d12-0d8f-4a01-8244-765edcf6bfcd
+  port: 36002
+  server: 107.174.52.160
+  skip-cert-verify: true
+  sni: hk1.zongyunti.site
+  type: hysteria2
+  udp: true
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: US AS 18 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 192.3.232.253
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: US MULTA 19 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 74.48.164.75
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: US AMAZON 20 @SubscriptionShare
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: zWY5WwfH-Q8xvLZAr28WjRVk05L4WCp4B7F1lWPM0A8
+    short-id: c1839f26
+  server: 34.219.109.171
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f177de9f-6bee-405e-b620-f73b43a1f2ea
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: TW DCBG 01 @SubscriptionShare
+  network: tcp
+  port: 52012
+  reality-opts:
+    public-key: a9uk_ZJLsVC_MY4CIa-d1aP5bagweyHUPR6O932-dC8
+    short-id: 24b05fcf3723e6af
+  server: 36.230.14.99
+  servername: music.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+- cipher: chacha20-ietf-poly1305
+  name: TW PNIC 02 @SubscriptionShare
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19822
+  server: 183.240.138.217
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: TW PNIC 03 @SubscriptionShare
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19822
+  server: 183.240.138.217
+  type: ss
+  udp: true
+- name: TW Akari 04 @SubscriptionShare
+  password: f959d233-02b8-4397-a453-e098675000d3
+  port: 21874
+  server: 118.253.180.20
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- auth: 6a8d4d12-0d8f-4a01-8244-765edcf6bfcd
+  name: AT netcup 01 @SubscriptionShare
+  password: 6a8d4d12-0d8f-4a01-8244-765edcf6bfcd
+  port: 36002
+  server: 152.53.54.139
+  skip-cert-verify: true
+  sni: hk1.zongyunti.site
+  type: hysteria2
+  udp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: CA AS 01 @SubscriptionShare
+  network: tcp
+  port: 52012
+  reality-opts:
+    public-key: a9uk_ZJLsVC_MY4CIa-d1aP5bagweyHUPR6O932-dC8
+    short-id: 24b05fcf3723e6af
+  server: 155.94.236.237
+  servername: music.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: CH PONYNET 01 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 104.244.74.67
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: DE netcup 01 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 46.38.243.197
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- auth: 136a72f8-8747-4782-b9a4-7cd7d75ef03d
+  name: DE netcup 02 @SubscriptionShare
+  password: 136a72f8-8747-4782-b9a4-7cd7d75ef03d
+  port: 47301
+  server: 91.132.146.90
+  skip-cert-verify: true
+  sni: dg2.youxixia.top
+  type: hysteria2
+  udp: true
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: DE netcup 03 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 152.89.105.4
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: DE netcup 04 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 37.221.193.24
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: DE netcup 05 @SubscriptionShare
+  network: tcp
+  port: 52012
+  reality-opts:
+    public-key: a9uk_ZJLsVC_MY4CIa-d1aP5bagweyHUPR6O932-dC8
+    short-id: 24b05fcf3723e6af
+  server: 46.38.254.236
+  servername: music.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: GB ORACLE 01 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 141.147.82.124
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: GB ICSL 02 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 78.129.249.118
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- name: GB AKILE 03 @SubscriptionShare
+  password: f959d233-02b8-4397-a453-e098675000d3
+  port: 21876
+  server: 118.253.180.20
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- auth: 2693acc0-edc3-4f34-a73a-068f1fbf4f89
+  name: GB RELIABLESITE 04 @SubscriptionShare
+  password: 2693acc0-edc3-4f34-a73a-068f1fbf4f89
+  port: 11112
+  server: 151.243.168.58
+  skip-cert-verify: true
+  sni: us2.oxdtangx.top
+  type: hysteria2
+  udp: true
+- auth: 2693acc0-edc3-4f34-a73a-068f1fbf4f89
+  name: GB RELIABLESITE 05 @SubscriptionShare
+  password: 2693acc0-edc3-4f34-a73a-068f1fbf4f89
+  port: 11112
+  server: 151.243.168.45
+  skip-cert-verify: true
+  sni: us1.oxdtangx.top
+  type: hysteria2
+  udp: true
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: IE AS 01 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 107.175.59.147
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: IN ORACLE 01 @SubscriptionShare
+  network: tcp
+  port: 52012
+  reality-opts:
+    public-key: a9uk_ZJLsVC_MY4CIa-d1aP5bagweyHUPR6O932-dC8
+    short-id: 24b05fcf3723e6af
+  server: 129.159.19.229
+  servername: music.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+- cipher: chacha20-ietf-poly1305
+  name: KR ORACLE 01 @SubscriptionShare
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19852
+  server: 183.240.138.217
+  type: ss
+  udp: true
+- name: KR ORACLE 02 @SubscriptionShare
+  network: ws
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 443
+  server: 104.18.31.128
+  skip-cert-verify: true
+  sni: vcm-2m1ikzhbpaqybf4.682007.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vcm-2m1ikzhbpaqybf4.682007.xyz
+    path: /media
+- name: KR GCore 03 @SubscriptionShare
+  password: f959d233-02b8-4397-a453-e098675000d3
+  port: 21871
+  server: 36.103.169.250
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- auth: 13c45514-1d29-4124-a2dd-315c1d0ee5e1
+  name: RU LLC 01 @SubscriptionShare
+  password: 13c45514-1d29-4124-a2dd-315c1d0ee5e1
+  port: 11112
+  server: 45.130.147.172
+  skip-cert-verify: true
+  sni: els.oxdtangx.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: TR Hostigger 01 @SubscriptionShare
+  network: tcp
+  port: 52012
+  reality-opts:
+    public-key: a9uk_ZJLsVC_MY4CIa-d1aP5bagweyHUPR6O932-dC8
+    short-id: 24b05fcf3723e6af
+  server: 185.219.133.209
+  servername: addons.mozilla.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+- name: Unknown RELIABLESITE 01 @SubscriptionShare
+  network: ws
+  password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b
+  port: 20230
+  server: 52.195.226.124
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: VN VSSTCL 01 @SubscriptionShare
+  network: ws
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 443
+  server: 104.19.206.86
+  skip-cert-verify: true
+  sni: media-vn001.622228.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: media-vn001.622228.xyz
+    path: /media
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: VN MTCL 02 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 103.77.215.181
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- auth: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  name: VN MCL 03 @SubscriptionShare
+  password: 3d2061d3-73b1-4a09-a878-2e4a196ef320
+  port: 52013
+  server: 103.69.188.119
+  skip-cert-verify: true
+  sni: files.xjqxz.top
+  type: hysteria2
+  udp: true
+- name: VN TQDTJSC 04 @SubscriptionShare
+  password: f959d233-02b8-4397-a453-e098675000d3
+  port: 21870
+  server: 36.103.169.250
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
