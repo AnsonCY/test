@@ -1,0 +1,554 @@
+proxies:
+- name: HK Akari 01 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30073
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: e3sg2dsf.roottss.com
+  type: trojan
+  udp: true
+- name: HK HNSL 02 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30005
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: e3sg2dsf.roottss.com
+  type: trojan
+  udp: true
+- name: HK HGCL 03 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30038
+  server: 119.147.193.50
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- auth: 17dd0322-6d2d-4ab7-909e-9774201602cc
+  name: HK Alibaba 04 @SubscriptionShare
+  password: 17dd0322-6d2d-4ab7-909e-9774201602cc
+  port: 20000
+  server: 8.217.242.20
+  skip-cert-verify: true
+  sni: mirrors.xtom.hk
+  type: hysteria2
+  udp: true
+- name: HK HGCL 05 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30007
+  server: 119.147.193.50
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK HGCL 06 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30006
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: e3sg2dsf.roottss.com
+  type: trojan
+  udp: true
+- name: HK HKBNL 07 @SubscriptionShare
+  password: 17dd0322-6d2d-4ab7-909e-9774201602cc
+  port: 54655
+  server: 183.240.228.188
+  skip-cert-verify: true
+  sni: console.luluky.com
+  type: trojan
+  udp: true
+- auth: 906d3f51-f9fd-4901-9666-f917babec7a3
+  name: HK Alibaba 08 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 20000
+  server: 47.76.119.42
+  skip-cert-verify: true
+  sni: mirrors.xtom.hk
+  type: hysteria2
+  udp: true
+- auth: 906d3f51-f9fd-4901-9666-f917babec7a3
+  name: HK Alibaba 09 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 20000
+  server: 47.243.131.115
+  skip-cert-verify: true
+  sni: mirrors.xtom.hk
+  type: hysteria2
+  udp: true
+- auth: 70e37344-c197-4c42-940d-e87122ba5e6a
+  name: HK WAP 10 @SubscriptionShare
+  password: 70e37344-c197-4c42-940d-e87122ba5e6a
+  port: 58338
+  server: 45.149.92.33
+  skip-cert-verify: true
+  sni: lsxg1.lansecs.top
+  type: hysteria2
+  udp: true
+- name: SG LEASEWEB 01 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30062
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- name: SG Akari 02 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30049
+  server: 119.147.193.50
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG AMAZON 03 @SubscriptionShare
+  network: ws
+  password: 58176021-8165-48d5-94b1-ad3e96e71e8b
+  port: 20230
+  server: 47.128.253.144
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- auth: 17dd0322-6d2d-4ab7-909e-9774201602cc
+  name: SG LEASEWEB 04 @SubscriptionShare
+  password: 17dd0322-6d2d-4ab7-909e-9774201602cc
+  port: 20000
+  server: 142.91.98.175
+  skip-cert-verify: true
+  sni: mirror.sg.gs
+  type: hysteria2
+  udp: true
+- name: SG AMAZON 05 @SubscriptionShare
+  network: ws
+  password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b
+  port: 20230
+  server: 13.250.51.147
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: SG AMAZON 06 @SubscriptionShare
+  network: ws
+  password: 13430296-2407-4839-900f-db97584fb27a
+  port: 20230
+  server: 52.221.247.101
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP Akari 01 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30054
+  server: 119.147.193.50
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP AMAZON 02 @SubscriptionShare
+  network: ws
+  password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b
+  port: 20230
+  server: 13.115.188.32
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- auth: 906d3f51-f9fd-4901-9666-f917babec7a3
+  name: JP Leaseweb 03 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 20000
+  server: 142.91.108.192
+  skip-cert-verify: true
+  sni: mirrors.xtom.hk
+  type: hysteria2
+  udp: true
+- name: US Kaopu 01 @SubscriptionShare
+  password: 17dd0322-6d2d-4ab7-909e-9774201602cc
+  port: 50028
+  server: 183.240.228.188
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- cipher: 2022-blake3-aes-128-gcm
+  name: US AMAZON 02 @SubscriptionShare
+  password: ZTc1ZDIxMzg1OGE1ZjYyOQ==:MmRjYmJmY2QtOGJjZC00OA==
+  port: 40384
+  server: 183.236.97.153
+  type: ss
+  udp: true
+- auth: 691597f9-66bf-48cd-ac5e-1ffb10b24eb3
+  name: US RELIABLESITE 03 @SubscriptionShare
+  password: 691597f9-66bf-48cd-ac5e-1ffb10b24eb3
+  port: 58338
+  server: 151.243.168.76
+  skip-cert-verify: true
+  sni: lsus5.lansecs.top
+  type: hysteria2
+  udp: true
+- auth: ec39402b-49e2-4349-a3c0-3cccf93947e4
+  name: US PONYNET 04 @SubscriptionShare
+  password: ec39402b-49e2-4349-a3c0-3cccf93947e4
+  port: 58338
+  server: 209.141.47.22
+  skip-cert-verify: true
+  sni: lsus3.lansecs.top
+  type: hysteria2
+  udp: true
+- name: US ORACLE 05 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30059
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- name: US ORACLE 06 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30060
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- name: US ORACLE 07 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30061
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- name: US ORACLE 08 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 32454
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: e3sg2dsf.roottss.com
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US AMAZON 09 @SubscriptionShare
+  network: tcp
+  port: 40000
+  server: 35.90.61.58
+  servername: 400567.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- name: US POLONETWORK 10 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30067
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: e3sg2dsf.roottss.com
+  type: trojan
+  udp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: US TERASWITCH 11 @SubscriptionShare
+  network: tcp
+  port: 43101
+  reality-opts:
+    public-key: SOB3y6iMzrHzcP73XqTxSjc19fUPpKYjNlSPdWLhNmg
+    short-id: f44b4a4c
+  server: 204.16.243.68
+  servername: www.java.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98256f2f-1a3e-4db8-ad9b-d553b6894d50
+- auth: 906d3f51-f9fd-4901-9666-f917babec7a3
+  name: US LEASEWEB 12 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 20000
+  server: 209.50.227.209
+  skip-cert-verify: true
+  sni: mirrors.xtom.hk
+  type: hysteria2
+  udp: true
+- name: US AMAZON 13 @SubscriptionShare
+  network: ws
+  password: 13430296-2407-4839-900f-db97584fb27a
+  port: 20230
+  server: 54.71.149.186
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US AMAZON 14 @SubscriptionShare
+  network: tcp
+  port: 40000
+  server: 35.87.202.131
+  servername: 400567.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- auth: 06c625ea-5902-11ee-9e87-f23c9313b177
+  name: US SHARKTECH 15 @SubscriptionShare
+  password: 06c625ea-5902-11ee-9e87-f23c9313b177
+  port: 1743
+  server: 107.167.18.123
+  skip-cert-verify: true
+  sni: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US PONYNET 16 @SubscriptionShare
+  network: ws
+  port: 22128
+  server: 212.192.13.86
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 739f55bf-1f92-421c-9886-b07c83017275
+  ws-opts:
+    path: /
+- name: TW DCBG 01 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30064
+  server: 119.147.193.50
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: TW DCBG 02 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30002
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- cipher: 2022-blake3-aes-128-gcm
+  name: TW DCBG 03 @SubscriptionShare
+  password: ZTc1ZDIxMzg1OGE1ZjYyOQ==:MmRjYmJmY2QtOGJjZC00OA==
+  port: 40380
+  server: 183.236.97.153
+  type: ss
+  udp: true
+- auth: 98256f2f-1a3e-4db8-ad9b-d553b6894d50
+  name: AU ORACLE 01 @SubscriptionShare
+  password: 98256f2f-1a3e-4db8-ad9b-d553b6894d50
+  port: 43001
+  server: 152.67.120.169
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- auth: 98256f2f-1a3e-4db8-ad9b-d553b6894d50
+  name: BR ORACLE 01 @SubscriptionShare
+  password: 98256f2f-1a3e-4db8-ad9b-d553b6894d50
+  port: 44000
+  server: 146.235.24.150
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- auth: 17dd0322-6d2d-4ab7-909e-9774201602cc
+  name: CA IWEB 01 @SubscriptionShare
+  password: 17dd0322-6d2d-4ab7-909e-9774201602cc
+  port: 20000
+  server: 198.50.117.152
+  skip-cert-verify: true
+  sni: mirrors.xtom.hk
+  type: hysteria2
+  udp: true
+- auth: 98256f2f-1a3e-4db8-ad9b-d553b6894d50
+  name: DE ORACLE 01 @SubscriptionShare
+  password: 98256f2f-1a3e-4db8-ad9b-d553b6894d50
+  port: 44001
+  server: 141.147.52.24
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- auth: c6f9fa89-907a-473f-962b-72ac0a5edcd3
+  name: DE netcup 02 @SubscriptionShare
+  password: c6f9fa89-907a-473f-962b-72ac0a5edcd3
+  port: 58338
+  server: 91.132.146.90
+  skip-cert-verify: true
+  sni: lsdg1.lansecs.top
+  type: hysteria2
+  udp: true
+- name: GB AKILE 01 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30040
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- name: GB POLONETWORK 02 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30226
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: e3sg2dsf.roottss.com
+  type: trojan
+  udp: true
+- auth: 691597f9-66bf-48cd-ac5e-1ffb10b24eb3
+  name: GB RELIABLESITE 03 @SubscriptionShare
+  password: 691597f9-66bf-48cd-ac5e-1ffb10b24eb3
+  port: 58338
+  server: 151.243.168.79
+  skip-cert-verify: true
+  sni: lsus7.lansecs.top
+  type: hysteria2
+  udp: true
+- name: IN Akamai 01 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30027
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- name: IN Akamai 02 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30028
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- name: KR AS 01 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30056
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- cipher: 2022-blake3-aes-128-gcm
+  name: KR AMAZON 02 @SubscriptionShare
+  password: ZTc1ZDIxMzg1OGE1ZjYyOQ==:MmRjYmJmY2QtOGJjZC00OA==
+  port: 40386
+  server: 120.241.45.2
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: KR AMAZON 03 @SubscriptionShare
+  network: tcp
+  port: 40000
+  server: 43.200.1.87
+  servername: 400567.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- client-fingerprint: ios
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: bby
+  name: KR AMAZON 04 @SubscriptionShare
+  network: grpc
+  port: 40000
+  reality-opts:
+    public-key: IllHH4k1x34LP2g6PJPd5-p__kNMRL0-Xq0VSli59mM
+    short-id: 83dd2e7b
+  server: 43.203.173.43
+  servername: www.walmart.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- name: MY TTSS 01 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 40005
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- auth: 98256f2f-1a3e-4db8-ad9b-d553b6894d50
+  name: NL DELUXHOST 01 @SubscriptionShare
+  password: 98256f2f-1a3e-4db8-ad9b-d553b6894d50
+  port: 44001
+  server: 85.208.9.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- name: PH Kaopu 01 @SubscriptionShare
+  password: 17dd0322-6d2d-4ab7-909e-9774201602cc
+  port: 50062
+  server: 183.240.228.188
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- auth: ec39402b-49e2-4349-a3c0-3cccf93947e4
+  name: RU LLC 01 @SubscriptionShare
+  password: ec39402b-49e2-4349-a3c0-3cccf93947e4
+  port: 58338
+  server: 45.130.147.172
+  skip-cert-verify: true
+  sni: lsyd1.lansecs.top
+  type: hysteria2
+  udp: true
+- name: TH SCC 01 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 40001
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- name: TH SCC 02 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30052
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Unknown RELIABLESITE 01 @SubscriptionShare
+  port: 26011
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- name: VN VNPT 01 @SubscriptionShare
+  password: 906d3f51-f9fd-4901-9666-f917babec7a3
+  port: 30051
+  server: 119.147.193.50
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true
