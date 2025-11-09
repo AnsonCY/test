@@ -1,0 +1,266 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: HK EDCL 01 @SubscriptionShare, server: 183.236.97.168, port: 21552, type: vmess, uuid: 58758a31-27b4-48c3-877a-dc77bc062111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: HK BAGE 02 @SubscriptionShare, server: 183.236.97.168, port: 44489, type: vmess, uuid: 58758a31-27b4-48c3-877a-dc77bc062111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: HK BAGE 03 @SubscriptionShare, server: 183.236.97.168, port: 12672, type: vmess, uuid: 58758a31-27b4-48c3-877a-dc77bc062111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: HK EDCL 04 @SubscriptionShare, server: 183.236.97.168, port: 33575, type: vmess, uuid: 58758a31-27b4-48c3-877a-dc77bc062111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: HK BAGE 05 @SubscriptionShare, server: 183.236.97.168, port: 45861, type: vmess, uuid: 58758a31-27b4-48c3-877a-dc77bc062111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: HK BAGE 06 @SubscriptionShare, server: 183.236.97.168, port: 38630, type: vmess, uuid: 58758a31-27b4-48c3-877a-dc77bc062111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: HK HKT 07 @SubscriptionShare, server: 120.37.141.17, port: 55024, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: HK HKT 08 @SubscriptionShare, server: 42.200.231.127, port: 50000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: HK MNL 09 @SubscriptionShare, server: 120.37.141.17, port: 55024, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: HK HKT 10 @SubscriptionShare, server: 42.200.230.253, port: 50000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: HK WAP 11 @SubscriptionShare, server: 45.149.92.33, port: 58338, type: hysteria2, password: 5938684e-e2d8-4127-a10f-b83faa0299cc, sni: lsxg1.lansecs.top, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SG EDCL 01 @SubscriptionShare, server: 183.236.97.168, port: 10420, type: vmess, uuid: 58758a31-27b4-48c3-877a-dc77bc062111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SG Akamai 02 @SubscriptionShare, server: 180.188.39.149, port: 55017, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SG AMAZON 03 @SubscriptionShare, server: 13.250.51.147, port: 20230, type: trojan, password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
+  - {name: SG AMAZON 04 @SubscriptionShare, server: 47.128.253.144, port: 20230, type: trojan, password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
+  - {name: SG BAGE 05 @SubscriptionShare, server: 183.236.97.168, port: 29631, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: SG Akamai 06 @SubscriptionShare, server: 125.78.88.78, port: 55016, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SG AMAZON 07 @SubscriptionShare, server: 13.212.208.223, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: f177de9f-6bee-405e-b620-f73b43a1f2ea, servername: www.nvidia.com, reality-opts: {public-key: Bkxd25PPovqeYw6AevM-L266KM2kLDJomgmorzvGFmM, short-id: 2c846487}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SG AMAZON 08 @SubscriptionShare, server: 18.143.179.184, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SG AMAZON 09 @SubscriptionShare, server: 54.255.247.93, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: 13430296-2407-4839-900f-db97584fb27a, servername: www.nvidia.com, reality-opts: {public-key: 1cs7mxEcoVKwcYepAnKgqHAFhRxPv6aO3tv7lNhwLDQ, short-id: 46bf6ea0}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SG BAGE 10 @SubscriptionShare, server: 103.216.253.77, port: 43461, type: ss, cipher: aes-128-gcm, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: SG AMAZON 11 @SubscriptionShare, server: 13.212.144.17, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: 13430296-2407-4839-900f-db97584fb27a, servername: www.nvidia.com, reality-opts: {public-key: WEttTimK6Q9qB8cd2AQ8kyDJOVfKAlPIl5E1T7-q0Dw, short-id: 1afbe06d}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SG Akamai 12 @SubscriptionShare, server: 125.78.88.78, port: 55016, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SG ORACLE 13 @SubscriptionShare, server: 138.2.111.116, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SG ORACLE 14 @SubscriptionShare, server: 161.118.220.89, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SG AMAZON 15 @SubscriptionShare, server: 52.77.236.70, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SG AMAZON 16 @SubscriptionShare, server: 47.129.143.162, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: JP DODO 01 @SubscriptionShare, server: 183.236.97.168, port: 20437, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: JP Akamai 02 @SubscriptionShare, server: 180.188.39.149, port: 54029, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: JP SAKURA 03 @SubscriptionShare, server: 153.121.54.127, port: 443, type: hysteria2, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: JP LAMHOSTING 04 @SubscriptionShare, server: 141.11.50.76, port: 443, type: hysteria2, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: JP NTT 05 @SubscriptionShare, server: 175.29.22.133, port: 54261, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MjA0YzgwZjBlM2ZkNmRlNA==:YzU3OWY2MTYtNmE4ZS00Yw==, udp: true, tfo: true}
+  - {name: JP BAGE 06 @SubscriptionShare, server: 183.236.97.168, port: 43291, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: JP BAGE 07 @SubscriptionShare, server: 178.239.124.134, port: 32283, type: trojan, password: 58758a31-27b4-48c3-877a-dc77bc062111, sni: xj.cokecloud.top, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: JP AMAZON 08 @SubscriptionShare, server: 54.65.55.44, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: JP AMAZON 09 @SubscriptionShare, server: 18.183.148.255, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: 13430296-2407-4839-900f-db97584fb27a, servername: www.nvidia.com, reality-opts: {public-key: lbOfuIKCBPcQH4AEnwnPw1LNxWrl-Bul6KU99H240Fc, short-id: abae4722}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: JP AMAZON 10 @SubscriptionShare, server: 18.179.202.175, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: 13430296-2407-4839-900f-db97584fb27a, servername: www.nvidia.com, reality-opts: {public-key: yNOemxnmT-HQ2HiR9fdHSN2B8HpHsRyMIsir_iAlaHE, short-id: 5c3c9f11}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: JP AMAZON 11 @SubscriptionShare, server: 18.183.238.123, port: 20230, type: trojan, password: 13430296-2407-4839-900f-db97584fb27a, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
+  - {name: JP AMAZON 12 @SubscriptionShare, server: 54.199.164.243, port: 20230, type: trojan, password: 13430296-2407-4839-900f-db97584fb27a, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
+  - {name: JP AMAZON 13 @SubscriptionShare, server: 57.180.63.18, port: 20230, type: trojan, password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
+  - {name: JP ORACLE 14 @SubscriptionShare, server: 168.110.57.148, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: JP ORACLE 15 @SubscriptionShare, server: 138.3.208.40, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: JP AMAZON 16 @SubscriptionShare, server: 43.207.232.54, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: JP AMAZON 17 @SubscriptionShare, server: 57.180.59.21, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: JP Amazon 18 @SubscriptionShare, server: 54.238.6.134, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US AS40676 01 @SubscriptionShare, server: 103.216.253.77, port: 56115, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US EDCL 02 @SubscriptionShare, server: 183.236.97.168, port: 40793, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: US RELIABLESITE 03 @SubscriptionShare, server: 151.243.168.75, port: 58338, type: hysteria2, password: 8d2a560e-6b9b-4a2c-9fee-94b3bc50b517, sni: lsus4.lansecs.top, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US BAGE 04 @SubscriptionShare, server: 183.236.97.168, port: 37724, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: US ZONT 05 @SubscriptionShare, server: 38.55.108.105, port: 20000, type: hysteria2, password: 92cf2b59-6aab-44d2-bb42-63b820af1b76, obfs: salamander, obfs-password: fdrccJDGatdFDDRp, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US PONYNET 06 @SubscriptionShare, server: 209.141.40.224, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US RELIABLESITE 07 @SubscriptionShare, server: 183.236.97.168, port: 17318, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: US PONYNET 08 @SubscriptionShare, server: 209.141.47.22, port: 58430, type: hysteria2, password: 3b90c3af-0ce7-4de9-9c76-dd4e9f93a3ec, sni: tw3.qucloud.top, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US BAGE 09 @SubscriptionShare, server: 183.236.97.168, port: 20067, type: vmess, uuid: 58758a31-27b4-48c3-877a-dc77bc062111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US Akamai 10 @SubscriptionShare, server: 172.236.231.16, port: 20000, type: hysteria2, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US ORACLE 11 @SubscriptionShare, server: 209.141.62.138, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US SYSTEMINPLACE 12 @SubscriptionShare, server: 151.244.214.19, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US AS 13 @SubscriptionShare, server: 107.175.75.47, port: 58430, type: hysteria2, password: 3b90c3af-0ce7-4de9-9c76-dd4e9f93a3ec, sni: xjp1.qucloud.top, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US EDCL 14 @SubscriptionShare, server: 183.236.97.168, port: 47393, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: US AMAZON 15 @SubscriptionShare, server: 44.250.43.223, port: 20230, type: vless, tls: true, packet-encoding: xudp, uuid: 13430296-2407-4839-900f-db97584fb27a, servername: www.nvidia.com, reality-opts: {public-key: Bq_RQyPwxp7zTYywC37jLxmcjV9npNN6H6_1d_R6GT0, short-id: c9916730}, client-fingerprint: random, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US Newserverlife 16 @SubscriptionShare, server: 154.56.121.214, port: 20000, type: hysteria2, password: 1ae48196-8777-4c1c-aca3-16ad820b0ec7, obfs: salamander, obfs-password: fdrccJDGatdFDDRp, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US SHARKTECH 17 @SubscriptionShare, server: 107.167.18.123, port: 1743, type: hysteria2, password: 16955d72-1794-11f0-a035-f23c95b6f51d, sni: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: US AMAZON 18 @SubscriptionShare, server: 54.186.121.20, port: 20230, type: trojan, password: 13430296-2407-4839-900f-db97584fb27a, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
+  - {name: US AMAZON 19 @SubscriptionShare, server: 54.71.149.186, port: 20230, type: trojan, password: 8c92b985-02fc-4bc1-8cd7-a12e5aae243b, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true, tfo: true}
+  - {name: US ORACLE 20 @SubscriptionShare, server: 129.146.0.132, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: TW GCNL 01 @SubscriptionShare, server: 183.236.97.168, port: 53497, type: vmess, uuid: 58758a31-27b4-48c3-877a-dc77bc062111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: TW AKILE 02 @SubscriptionShare, server: 183.236.97.168, port: 13255, type: vmess, uuid: 58758a31-27b4-48c3-877a-dc77bc062111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: TW AKILE 03 @SubscriptionShare, server: 183.236.97.168, port: 21077, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: TW DCBG 04 @SubscriptionShare, server: 180.188.39.149, port: 54144, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: TW DCBG 05 @SubscriptionShare, server: 183.236.97.168, port: 21073, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: TW DCBG 06 @SubscriptionShare, server: 36.234.157.74, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: AE GCNL 01 @SubscriptionShare, server: 183.236.97.168, port: 32725, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: AU HOSTHATCH 01 @SubscriptionShare, server: 183.236.97.168, port: 18071, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: AU Akamai 02 @SubscriptionShare, server: 120.37.141.17, port: 59115, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: BG Evolonia 01 @SubscriptionShare, server: 125.78.88.78, port: 49026, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: BR DSCSDHNI 01 @SubscriptionShare, server: 120.37.141.17, port: 59214, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: CA AS 01 @SubscriptionShare, server: 120.37.141.17, port: 59025, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: CA ASN 02 @SubscriptionShare, server: 104.223.85.165, port: 58430, type: hysteria2, password: 3b90c3af-0ce7-4de9-9c76-dd4e9f93a3ec, sni: yg1.qucloud.top, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: CH senseLAN 01 @SubscriptionShare, server: 125.78.88.78, port: 48031, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: CY WorkTitans 01 @SubscriptionShare, server: 125.78.88.78, port: 59081, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: DE netcup 01 @SubscriptionShare, server: 91.132.146.90, port: 58338, type: hysteria2, password: 68c7c5e0-ca74-413c-b46d-67a840736b61, sni: lsdg1.lansecs.top, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: DE BAGE 02 @SubscriptionShare, server: 183.236.97.168, port: 13646, type: vmess, uuid: 58758a31-27b4-48c3-877a-dc77bc062111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: DE TTPUL 03 @SubscriptionShare, server: 94.249.197.79, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: ES NIXVAL 01 @SubscriptionShare, server: 103.216.253.77, port: 59116, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: FR FEELB 01 @SubscriptionShare, server: 125.78.88.78, port: 59022, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: GB AkileCloud 01 @SubscriptionShare, server: 194.105.81.234, port: 20000, type: hysteria2, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: GB ORACLE 02 @SubscriptionShare, server: 143.47.240.240, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: GB DIGITALOCEAN 03 @SubscriptionShare, server: 103.181.165.243, port: 26116, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: GB OWS 04 @SubscriptionShare, server: 183.236.97.168, port: 21016, type: vmess, uuid: 58758a31-27b4-48c3-877a-dc77bc062111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: GB ORACLE 05 @SubscriptionShare, server: 132.226.212.133, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: ID PHDI 01 @SubscriptionShare, server: 120.37.141.17, port: 59111, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: ID PCHI 02 @SubscriptionShare, server: 183.236.97.168, port: 15447, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: IL AS 01 @SubscriptionShare, server: 103.181.165.243, port: 26145, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: IN RCSPL 01 @SubscriptionShare, server: 120.37.141.17, port: 59009, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: IT Host 01 @SubscriptionShare, server: 125.78.88.78, port: 59028, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: KH IICWTBVIT 01 @SubscriptionShare, server: 120.37.141.17, port: 59021, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: KR LG 01 @SubscriptionShare, server: 120.37.141.17, port: 59110, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: KR MOACK 02 @SubscriptionShare, server: 183.236.97.168, port: 33167, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: KR AMAZON 03 @SubscriptionShare, server: 43.200.255.184, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: KR OCTOPUS 04 @SubscriptionShare, server: 183.236.97.168, port: 28595, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: KR AMAZON 05 @SubscriptionShare, server: 13.124.174.80, port: 30000, type: hysteria2, password: 49bfe308-0c0f-4770-bd81-bb2ff8efa03a, sni: bing.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: KZ JSC 01 @SubscriptionShare, server: 120.37.141.17, port: 59117, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: MO Akile 01 @SubscriptionShare, server: 120.37.141.17, port: 59010, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: MY GB 01 @SubscriptionShare, server: 183.236.97.168, port: 32127, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: MY TTSS 02 @SubscriptionShare, server: 120.37.141.17, port: 59027, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: NG Melbikomas 01 @SubscriptionShare, server: 125.78.88.78, port: 59013, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: NL Nerdscave 01 @SubscriptionShare, server: 125.78.88.78, port: 48111, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: NZ HOSTPERL 01 @SubscriptionShare, server: 120.37.141.17, port: 59020, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: PH CARRIERDOMAIN 01 @SubscriptionShare, server: 120.37.141.17, port: 59005, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: PH OWS 02 @SubscriptionShare, server: 183.236.97.168, port: 11277, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: PL Korbank 01 @SubscriptionShare, server: 125.78.88.78, port: 59017, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: RU GISL 01 @SubscriptionShare, server: 103.216.253.77, port: 59032, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: RU GISL 02 @SubscriptionShare, server: 183.236.97.168, port: 44753, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: RU LLC 03 @SubscriptionShare, server: 45.130.147.172, port: 58338, type: hysteria2, password: beef5265-e706-40d5-9b2c-525899e6adb1, sni: lsyd1.lansecs.top, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SA Kaopu 01 @SubscriptionShare, server: 120.37.141.17, port: 59044, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SC AKILE 01 @SubscriptionShare, server: 125.78.88.78, port: 59023, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: SC Kaopu 02 @SubscriptionShare, server: 120.37.141.17, port: 59019, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: TH VP 01 @SubscriptionShare, server: 120.37.141.17, port: 59114, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: TH SCC 02 @SubscriptionShare, server: 183.236.97.168, port: 34523, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: TR Ultahost 01 @SubscriptionShare, server: 183.236.97.168, port: 53355, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: UA FRSM 01 @SubscriptionShare, server: 125.78.88.78, port: 48113, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: Unknown RELIABLESITE 01 @SubscriptionShare, server: 13.231.177.251, port: 15097, type: ss, cipher: aes-256-gcm, password: 05d1a3ab-2ca8-42b2-8f21-527695250017, udp: true, tfo: true}
+  - {name: VN VPATG 01 @SubscriptionShare, server: 120.37.141.17, port: 59006, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+  - {name: VN VIETPN 02 @SubscriptionShare, server: 103.186.155.127, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
+  - {name: VN VIETPN 03 @SubscriptionShare, server: 103.186.154.80, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
+  - {name: VN UTSCL 04 @SubscriptionShare, server: 183.236.97.168, port: 17463, type: ss, cipher: chacha20-ietf-poly1305, password: 58758a31-27b4-48c3-877a-dc77bc062111, udp: true, tfo: true}
+  - {name: ZA Host 01 @SubscriptionShare, server: 120.37.141.17, port: 59045, type: trojan, password: c579f616-6a8e-4c76-9124-903d8e675a5b, sni: www.volcengine.com, skip-cert-verify: true, udp: true, tfo: true}
+proxy-groups:
+  - {name: Proxy, type: select, proxies: [Auto, DIRECT, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, HK EDCL 01 @SubscriptionShare, HK BAGE 02 @SubscriptionShare, HK BAGE 03 @SubscriptionShare, HK EDCL 04 @SubscriptionShare, HK BAGE 05 @SubscriptionShare, HK BAGE 06 @SubscriptionShare, HK HKT 07 @SubscriptionShare, HK HKT 08 @SubscriptionShare, HK MNL 09 @SubscriptionShare, HK HKT 10 @SubscriptionShare, HK WAP 11 @SubscriptionShare, SG EDCL 01 @SubscriptionShare, SG Akamai 02 @SubscriptionShare, SG AMAZON 03 @SubscriptionShare, SG AMAZON 04 @SubscriptionShare, SG BAGE 05 @SubscriptionShare, SG Akamai 06 @SubscriptionShare, SG AMAZON 07 @SubscriptionShare, SG AMAZON 08 @SubscriptionShare, SG AMAZON 09 @SubscriptionShare, SG BAGE 10 @SubscriptionShare, SG AMAZON 11 @SubscriptionShare, SG Akamai 12 @SubscriptionShare, SG ORACLE 13 @SubscriptionShare, SG ORACLE 14 @SubscriptionShare, SG AMAZON 15 @SubscriptionShare, SG AMAZON 16 @SubscriptionShare, JP DODO 01 @SubscriptionShare, JP Akamai 02 @SubscriptionShare, JP SAKURA 03 @SubscriptionShare, JP LAMHOSTING 04 @SubscriptionShare, JP NTT 05 @SubscriptionShare, JP BAGE 06 @SubscriptionShare, JP BAGE 07 @SubscriptionShare, JP AMAZON 08 @SubscriptionShare, JP AMAZON 09 @SubscriptionShare, JP AMAZON 10 @SubscriptionShare, JP AMAZON 11 @SubscriptionShare, JP AMAZON 12 @SubscriptionShare, JP AMAZON 13 @SubscriptionShare, JP ORACLE 14 @SubscriptionShare, JP ORACLE 15 @SubscriptionShare, JP AMAZON 16 @SubscriptionShare, JP AMAZON 17 @SubscriptionShare, JP Amazon 18 @SubscriptionShare, US AS40676 01 @SubscriptionShare, US EDCL 02 @SubscriptionShare, US RELIABLESITE 03 @SubscriptionShare, US BAGE 04 @SubscriptionShare, US ZONT 05 @SubscriptionShare, US PONYNET 06 @SubscriptionShare, US RELIABLESITE 07 @SubscriptionShare, US PONYNET 08 @SubscriptionShare, US BAGE 09 @SubscriptionShare, US Akamai 10 @SubscriptionShare, US ORACLE 11 @SubscriptionShare, US SYSTEMINPLACE 12 @SubscriptionShare, US AS 13 @SubscriptionShare, US EDCL 14 @SubscriptionShare, US AMAZON 15 @SubscriptionShare, US Newserverlife 16 @SubscriptionShare, US SHARKTECH 17 @SubscriptionShare, US AMAZON 18 @SubscriptionShare, US AMAZON 19 @SubscriptionShare, US ORACLE 20 @SubscriptionShare, TW GCNL 01 @SubscriptionShare, TW AKILE 02 @SubscriptionShare, TW AKILE 03 @SubscriptionShare, TW DCBG 04 @SubscriptionShare, TW DCBG 05 @SubscriptionShare, TW DCBG 06 @SubscriptionShare, AE GCNL 01 @SubscriptionShare, AU HOSTHATCH 01 @SubscriptionShare, AU Akamai 02 @SubscriptionShare, BG Evolonia 01 @SubscriptionShare, BR DSCSDHNI 01 @SubscriptionShare, CA AS 01 @SubscriptionShare, CA ASN 02 @SubscriptionShare, CH senseLAN 01 @SubscriptionShare, CY WorkTitans 01 @SubscriptionShare, DE netcup 01 @SubscriptionShare, DE BAGE 02 @SubscriptionShare, DE TTPUL 03 @SubscriptionShare, ES NIXVAL 01 @SubscriptionShare, FR FEELB 01 @SubscriptionShare, GB AkileCloud 01 @SubscriptionShare, GB ORACLE 02 @SubscriptionShare, GB DIGITALOCEAN 03 @SubscriptionShare, GB OWS 04 @SubscriptionShare, GB ORACLE 05 @SubscriptionShare, ID PHDI 01 @SubscriptionShare, ID PCHI 02 @SubscriptionShare, IL AS 01 @SubscriptionShare, IN RCSPL 01 @SubscriptionShare, IT Host 01 @SubscriptionShare, KH IICWTBVIT 01 @SubscriptionShare, KR LG 01 @SubscriptionShare, KR MOACK 02 @SubscriptionShare, KR AMAZON 03 @SubscriptionShare, KR OCTOPUS 04 @SubscriptionShare, KR AMAZON 05 @SubscriptionShare, KZ JSC 01 @SubscriptionShare, MO Akile 01 @SubscriptionShare, MY GB 01 @SubscriptionShare, MY TTSS 02 @SubscriptionShare, NG Melbikomas 01 @SubscriptionShare, NL Nerdscave 01 @SubscriptionShare, NZ HOSTPERL 01 @SubscriptionShare, PH CARRIERDOMAIN 01 @SubscriptionShare, PH OWS 02 @SubscriptionShare, PL Korbank 01 @SubscriptionShare, RU GISL 01 @SubscriptionShare, RU GISL 02 @SubscriptionShare, RU LLC 03 @SubscriptionShare, SA Kaopu 01 @SubscriptionShare, SC AKILE 01 @SubscriptionShare, SC Kaopu 02 @SubscriptionShare, TH VP 01 @SubscriptionShare, TH SCC 02 @SubscriptionShare, TR Ultahost 01 @SubscriptionShare, UA FRSM 01 @SubscriptionShare, Unknown RELIABLESITE 01 @SubscriptionShare, VN VPATG 01 @SubscriptionShare, VN VIETPN 02 @SubscriptionShare, VN VIETPN 03 @SubscriptionShare, VN UTSCL 04 @SubscriptionShare, ZA Host 01 @SubscriptionShare]}
+  - {name: Auto, type: fallback, url: http://connectivitycheck.gstatic.com/generate_204, interval: 300, proxies: [HK EDCL 01 @SubscriptionShare, HK BAGE 02 @SubscriptionShare, HK BAGE 03 @SubscriptionShare, HK EDCL 04 @SubscriptionShare, HK BAGE 05 @SubscriptionShare, HK BAGE 06 @SubscriptionShare, HK HKT 07 @SubscriptionShare, HK HKT 08 @SubscriptionShare, HK MNL 09 @SubscriptionShare, HK HKT 10 @SubscriptionShare, HK WAP 11 @SubscriptionShare, SG EDCL 01 @SubscriptionShare, SG Akamai 02 @SubscriptionShare, SG AMAZON 03 @SubscriptionShare, SG AMAZON 04 @SubscriptionShare, SG BAGE 05 @SubscriptionShare, SG Akamai 06 @SubscriptionShare, SG AMAZON 07 @SubscriptionShare, SG AMAZON 08 @SubscriptionShare, SG AMAZON 09 @SubscriptionShare, SG BAGE 10 @SubscriptionShare, SG AMAZON 11 @SubscriptionShare, SG Akamai 12 @SubscriptionShare, SG ORACLE 13 @SubscriptionShare, SG ORACLE 14 @SubscriptionShare, SG AMAZON 15 @SubscriptionShare, SG AMAZON 16 @SubscriptionShare, JP DODO 01 @SubscriptionShare, JP Akamai 02 @SubscriptionShare, JP SAKURA 03 @SubscriptionShare, JP LAMHOSTING 04 @SubscriptionShare, JP NTT 05 @SubscriptionShare, JP BAGE 06 @SubscriptionShare, JP BAGE 07 @SubscriptionShare, JP AMAZON 08 @SubscriptionShare, JP AMAZON 09 @SubscriptionShare, JP AMAZON 10 @SubscriptionShare, JP AMAZON 11 @SubscriptionShare, JP AMAZON 12 @SubscriptionShare, JP AMAZON 13 @SubscriptionShare, JP ORACLE 14 @SubscriptionShare, JP ORACLE 15 @SubscriptionShare, JP AMAZON 16 @SubscriptionShare, JP AMAZON 17 @SubscriptionShare, JP Amazon 18 @SubscriptionShare, US AS40676 01 @SubscriptionShare, US EDCL 02 @SubscriptionShare, US RELIABLESITE 03 @SubscriptionShare, US BAGE 04 @SubscriptionShare, US ZONT 05 @SubscriptionShare, US PONYNET 06 @SubscriptionShare, US RELIABLESITE 07 @SubscriptionShare, US PONYNET 08 @SubscriptionShare, US BAGE 09 @SubscriptionShare, US Akamai 10 @SubscriptionShare, US ORACLE 11 @SubscriptionShare, US SYSTEMINPLACE 12 @SubscriptionShare, US AS 13 @SubscriptionShare, US EDCL 14 @SubscriptionShare, US AMAZON 15 @SubscriptionShare, US Newserverlife 16 @SubscriptionShare, US SHARKTECH 17 @SubscriptionShare, US AMAZON 18 @SubscriptionShare, US AMAZON 19 @SubscriptionShare, US ORACLE 20 @SubscriptionShare, TW GCNL 01 @SubscriptionShare, TW AKILE 02 @SubscriptionShare, TW AKILE 03 @SubscriptionShare, TW DCBG 04 @SubscriptionShare, TW DCBG 05 @SubscriptionShare, TW DCBG 06 @SubscriptionShare, AE GCNL 01 @SubscriptionShare, AU HOSTHATCH 01 @SubscriptionShare, AU Akamai 02 @SubscriptionShare, BG Evolonia 01 @SubscriptionShare, BR DSCSDHNI 01 @SubscriptionShare, CA AS 01 @SubscriptionShare, CA ASN 02 @SubscriptionShare, CH senseLAN 01 @SubscriptionShare, CY WorkTitans 01 @SubscriptionShare, DE netcup 01 @SubscriptionShare, DE BAGE 02 @SubscriptionShare, DE TTPUL 03 @SubscriptionShare, ES NIXVAL 01 @SubscriptionShare, FR FEELB 01 @SubscriptionShare, GB AkileCloud 01 @SubscriptionShare, GB ORACLE 02 @SubscriptionShare, GB DIGITALOCEAN 03 @SubscriptionShare, GB OWS 04 @SubscriptionShare, GB ORACLE 05 @SubscriptionShare, ID PHDI 01 @SubscriptionShare, ID PCHI 02 @SubscriptionShare, IL AS 01 @SubscriptionShare, IN RCSPL 01 @SubscriptionShare, IT Host 01 @SubscriptionShare, KH IICWTBVIT 01 @SubscriptionShare, KR LG 01 @SubscriptionShare, KR MOACK 02 @SubscriptionShare, KR AMAZON 03 @SubscriptionShare, KR OCTOPUS 04 @SubscriptionShare, KR AMAZON 05 @SubscriptionShare, KZ JSC 01 @SubscriptionShare, MO Akile 01 @SubscriptionShare, MY GB 01 @SubscriptionShare, MY TTSS 02 @SubscriptionShare, NG Melbikomas 01 @SubscriptionShare, NL Nerdscave 01 @SubscriptionShare, NZ HOSTPERL 01 @SubscriptionShare, PH CARRIERDOMAIN 01 @SubscriptionShare, PH OWS 02 @SubscriptionShare, PL Korbank 01 @SubscriptionShare, RU GISL 01 @SubscriptionShare, RU GISL 02 @SubscriptionShare, RU LLC 03 @SubscriptionShare, SA Kaopu 01 @SubscriptionShare, SC AKILE 01 @SubscriptionShare, SC Kaopu 02 @SubscriptionShare, TH VP 01 @SubscriptionShare, TH SCC 02 @SubscriptionShare, TR Ultahost 01 @SubscriptionShare, UA FRSM 01 @SubscriptionShare, Unknown RELIABLESITE 01 @SubscriptionShare, VN VPATG 01 @SubscriptionShare, VN VIETPN 02 @SubscriptionShare, VN VIETPN 03 @SubscriptionShare, VN UTSCL 04 @SubscriptionShare, ZA Host 01 @SubscriptionShare]}
+  - {name: Apple, type: select, proxies: [Proxy, DIRECT, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: BiliBili, type: select, proxies: [Proxy, DIRECT, Auto, 🇭🇰 Hong Kong, 🇨🇳 Taiwan]}
+  - {name: Netflix, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: Disney, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: YouTube, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: TikTok, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: GlobalMedia, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: OpenAI, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: Google, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: Microsoft, type: select, proxies: [Proxy, DIRECT, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: Steam, type: select, proxies: [Proxy, DIRECT, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: PayPal, type: select, proxies: [Proxy, DIRECT, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: Telegram, type: select, proxies: [Proxy, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: Lan, type: select, proxies: [Proxy, Auto, DIRECT]}
+  - {name: ChinaMax, type: select, proxies: [Proxy, Auto, DIRECT]}
+  - {name: Final, type: select, proxies: [Proxy, Auto, DIRECT]}
+  - {name: 🇭🇰 Hong Kong, type: url-test, url: http://connectivitycheck.gstatic.com/generate_204, interval: 300, proxies: [HK EDCL 01 @SubscriptionShare, HK BAGE 02 @SubscriptionShare, HK BAGE 03 @SubscriptionShare, HK EDCL 04 @SubscriptionShare, HK BAGE 05 @SubscriptionShare, HK BAGE 06 @SubscriptionShare, HK HKT 07 @SubscriptionShare, HK HKT 08 @SubscriptionShare, HK MNL 09 @SubscriptionShare, HK HKT 10 @SubscriptionShare, HK WAP 11 @SubscriptionShare]}
+  - {name: 🇸🇬 Singapore, type: url-test, url: http://connectivitycheck.gstatic.com/generate_204, interval: 300, proxies: [SG EDCL 01 @SubscriptionShare, SG Akamai 02 @SubscriptionShare, SG AMAZON 03 @SubscriptionShare, SG AMAZON 04 @SubscriptionShare, SG BAGE 05 @SubscriptionShare, SG Akamai 06 @SubscriptionShare, SG AMAZON 07 @SubscriptionShare, SG AMAZON 08 @SubscriptionShare, SG AMAZON 09 @SubscriptionShare, SG BAGE 10 @SubscriptionShare, SG AMAZON 11 @SubscriptionShare, SG Akamai 12 @SubscriptionShare, SG ORACLE 13 @SubscriptionShare, SG ORACLE 14 @SubscriptionShare, SG AMAZON 15 @SubscriptionShare, SG AMAZON 16 @SubscriptionShare]}
+  - {name: 🇯🇵 Japan, type: url-test, url: http://connectivitycheck.gstatic.com/generate_204, interval: 300, proxies: [JP DODO 01 @SubscriptionShare, JP Akamai 02 @SubscriptionShare, JP SAKURA 03 @SubscriptionShare, JP LAMHOSTING 04 @SubscriptionShare, JP NTT 05 @SubscriptionShare, JP BAGE 06 @SubscriptionShare, JP BAGE 07 @SubscriptionShare, JP AMAZON 08 @SubscriptionShare, JP AMAZON 09 @SubscriptionShare, JP AMAZON 10 @SubscriptionShare, JP AMAZON 11 @SubscriptionShare, JP AMAZON 12 @SubscriptionShare, JP AMAZON 13 @SubscriptionShare, JP ORACLE 14 @SubscriptionShare, JP ORACLE 15 @SubscriptionShare, JP AMAZON 16 @SubscriptionShare, JP AMAZON 17 @SubscriptionShare, JP Amazon 18 @SubscriptionShare]}
+  - {name: 🇺🇸 United States, type: url-test, url: http://connectivitycheck.gstatic.com/generate_204, interval: 300, proxies: [US AS40676 01 @SubscriptionShare, US EDCL 02 @SubscriptionShare, US RELIABLESITE 03 @SubscriptionShare, US BAGE 04 @SubscriptionShare, US ZONT 05 @SubscriptionShare, US PONYNET 06 @SubscriptionShare, US RELIABLESITE 07 @SubscriptionShare, US PONYNET 08 @SubscriptionShare, US BAGE 09 @SubscriptionShare, US Akamai 10 @SubscriptionShare, US ORACLE 11 @SubscriptionShare, US SYSTEMINPLACE 12 @SubscriptionShare, US AS 13 @SubscriptionShare, US EDCL 14 @SubscriptionShare, US AMAZON 15 @SubscriptionShare, US Newserverlife 16 @SubscriptionShare, US SHARKTECH 17 @SubscriptionShare, US AMAZON 18 @SubscriptionShare, US AMAZON 19 @SubscriptionShare, US ORACLE 20 @SubscriptionShare, KR OCTOPUS 04 @SubscriptionShare]}
+  - {name: 🇨🇳 Taiwan, type: url-test, url: http://connectivitycheck.gstatic.com/generate_204, interval: 300, proxies: [TW GCNL 01 @SubscriptionShare, TW AKILE 02 @SubscriptionShare, TW AKILE 03 @SubscriptionShare, TW DCBG 04 @SubscriptionShare, TW DCBG 05 @SubscriptionShare, TW DCBG 06 @SubscriptionShare]}
+rules:
+  - RULE-SET,Apple_Classical_No_Resolve,Apple
+  - RULE-SET,BiliBili_No_Resolve,BiliBili
+  - RULE-SET,Netflix_No_Resolve,Netflix
+  - RULE-SET,Disney_No_Resolve,Disney
+  - RULE-SET,YouTube_No_Resolve,YouTube
+  - RULE-SET,TikTok_No_Resolve,TikTok
+  - RULE-SET,GlobalMedia_Classical_No_Resolve,GlobalMedia
+  - RULE-SET,OpenAI_No_Resolve,OpenAI
+  - RULE-SET,Google_No_Resolve,Google
+  - RULE-SET,Microsoft_No_Resolve,Microsoft
+  - RULE-SET,PayPal_No_Resolve,PayPal
+  - RULE-SET,Telegram_No_Resolve,Telegram
+  - RULE-SET,Steam_No_Resolve,Steam
+  - RULE-SET,Lan_No_Resolve,Lan
+  - RULE-SET,ChinaMax_Classical_No_IPv6_No_Resolve,ChinaMax
+  - MATCH,Final
+rule-providers:
+  Apple_Classical_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml
+    path: ./providers/1382714063091383325.yaml
+    interval: 86400
+  BiliBili_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili_No_Resolve.yaml
+    path: ./providers/15427680467615148193.yaml
+    interval: 86400
+  Netflix_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix_No_Resolve.yaml
+    path: ./providers/3095517576045242515.yaml
+    interval: 86400
+  Disney_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney_No_Resolve.yaml
+    path: ./providers/16730261648837664781.yaml
+    interval: 86400
+  YouTube_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube_No_Resolve.yaml
+    path: ./providers/7793569929749877519.yaml
+    interval: 86400
+  TikTok_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok_No_Resolve.yaml
+    path: ./providers/11554982043438683725.yaml
+    interval: 86400
+  GlobalMedia_Classical_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical_No_Resolve.yaml
+    path: ./providers/8586276791519100849.yaml
+    interval: 86400
+  OpenAI_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
+    path: ./providers/10003867553944401341.yaml
+    interval: 86400
+  Google_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google_No_Resolve.yaml
+    path: ./providers/6866317176011189215.yaml
+    interval: 86400
+  Microsoft_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml
+    path: ./providers/5985473173379392979.yaml
+    interval: 86400
+  PayPal_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal_No_Resolve.yaml
+    path: ./providers/15088493651586754751.yaml
+    interval: 86400
+  Telegram_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram_No_Resolve.yaml
+    path: ./providers/1666671147171134695.yaml
+    interval: 86400
+  Steam_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam_No_Resolve.yaml
+    path: ./providers/185371531745484315.yaml
+    interval: 86400
+  Lan_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan_No_Resolve.yaml
+    path: ./providers/1243614840536111263.yaml
+    interval: 86400
+  ChinaMax_Classical_No_IPv6_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical_No_IPv6_No_Resolve.yaml
+    path: ./providers/15219913603349139099.yaml
+    interval: 86400
